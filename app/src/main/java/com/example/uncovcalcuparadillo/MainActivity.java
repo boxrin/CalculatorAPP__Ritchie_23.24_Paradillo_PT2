@@ -42,9 +42,9 @@ public class MainActivity extends AppCompatActivity {
                 double n2 = Double.parseDouble(num2.getText().toString());
                 double humana = n1+n2;
 
-                String mamanilester = String.valueOf(humana);
+                String ewan = String.valueOf(humana);
 
-                Resultvalue.setText(mamanilester);
+                Resultvalue.setText(ewan);
             }
         }));
         subtraction.setOnClickListener(new View.OnClickListener() {
